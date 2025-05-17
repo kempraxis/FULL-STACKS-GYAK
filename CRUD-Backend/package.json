@@ -1,0 +1,21 @@
+{
+  "name": "crud-backend",
+  "version": "1.0.0",
+  "description": "Ebben a példában van RESTful CRUD API Express.js, Node.js és mongoDB.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "KemviCODES",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
